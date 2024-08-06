@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap');
+
+:root {
+  --black: #0F0A0A;
+  --primary: #42E2B8;
+  --secondary: linear-gradient(135deg, #FAD7A1 0%, #E96D71 100%);
+  --light: #E5E5E5;
+  --gray: #C4C4C4;
+  --red: #DA1414;
+  --white: #fff;
+
+  --btn-primary: #42E2B8;
+
+  --poppins-font: 'Poppins', sans-serif;
+  --oxigen-font: 'Oxygen', sans-serif;
+  --source-sans-pro-font: 'Source Sans Pro', sans-serif;
+}
+
+body {
+  font-family: var(--oxigen-font);
+  background: var(--secondary);
+  padding: 0;
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5 {
+  font-style: normal;
+  font-weight: 700;
+  color: var(--black);
+  margin: 16px 0px;
+}
+
+h1 {
+  font-size: 95px;
+  line-height: 154px;
+  letter-spacing: -0.015em;
+}
+
+h2 {
+  font-size: 59px;
+  line-height: 95px;
+  letter-spacing: -0.005em;
+}
+
+h3 {
+  font-size: 48px;
+  line-height: 78px;
+}
+
+h4 {
+  font-size: 34px;
+  line-height: 55px;
+}
+
+h5 {
+  
+  font-size: 24px;
+  line-height: 39px;
+}
+
+.text-primary {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.005em;
+  color: var(--black);
+}
+
+.text-secundary {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 23px;
+  letter-spacing: 0.0025em;
+  color: var(--gray);
+}
+
+.button {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 23px;
+  letter-spacing: 1.25px;
+  text-transform: uppercase;
+  color: var(--gray);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  border-radius: 90px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.button .icon {
+  margin-right: 8px;
+}
+
+.button.button-primary {
+  background: var(--btn-primary);
+  border: 2px solid var(--black);
+  box-sizing: border-box;
+  box-shadow: -4px 4px 14px rgba(0, 0, 0, 0.25);
+  color: var(--black);
+}
+
+.button.button-secondary {
+  border: 2px solid var(--black);
+  box-sizing: border-box;
+  filter: drop-shadow(-4px 4px 14px rgba(0, 0, 0, 0.25));
+  color: var(--black);
+}
+
+.caption {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 19px;
+  letter-spacing: 0.4px;
+  color: var(--gray);
+}
+
+a, a:active, a:visited {
+  text-decoration: none;
+}
